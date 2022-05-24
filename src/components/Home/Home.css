@@ -1,5 +1,19 @@
+body{
+    background-color: rgb(255, 200, 100);
+}
+
 .my-classes{
     display: flex;
     justify-content: center;
-    background-color: grey;
+    flex-flow: wrap;
+}
+
+#inputBox{
+    background-color: rgb(210, 125, 10);
+    margin-right: 10px;
+}
+
+#submitButton{
+    background-color: rgb(210, 125, 10);
+    color: black;
 }
